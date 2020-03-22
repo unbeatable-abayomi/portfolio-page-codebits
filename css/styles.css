@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi+2|Lora&display=swap');
+/* font-family: 'Baloo Thambi 2', cursive;
+font-family: 'Lora', serif; */
+/* body{
+    background-color: rebeccapurple;
+} */
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+#my_name_text{
+    font-family: 'Lora', serif;  
+    font-size: 64px; 
+}
+h5 ,h1{
+    padding: 0;
+    margin: 0;
+}
+h5{
+    font-weight: lighter;
+}
+.my_description{
+    font-size: 22px;
+}
+.div_containing_name{
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+hr{
+    width: 5rem;
+    color: black;
+    border-bottom: 3px solid black;
+}
+.my_work_text{
+    font-family: 'Lora', serif;     
+    font-weight: bold;
+}
+.green{
+    color: rgb(18, 235, 18);
+}
+.nav-button{
+    width: 8rem;
+    font-size: 18px;
+    background-color: rgb(18, 235, 18);
+    border: none;
+}
+ul li{
+    list-style: none;
+}
+.my-name{
+    padding-left: 8rem  ;
+}
+.nav-items-ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-right: 1rem;
+    
+}
+.nav-items-li{
+    padding-left: 2rem;
+    font-size: 22px;
+}
+
+.my_details{
+    background-color: #24343D;
+    min-height: 40px;
+    color: #fff;
+    font-size: 28px;
+   
+}
+.my_portfolio{
+    background-color: #24343D;
+    min-height: 420px;
+}
+.my_portfolio_text{
+    padding-top: 9rem;
+    padding-left: 5.5rem;
+}
+.my_details_row_div{
+
+}
+
+
+.font-awseome-div{
+    margin-left: -2rem;
+}
+.font-awseome-ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    /* margin-right: 10rem; */
+}
+.font-awseome-li{
+    padding: 2rem;
+}
+.my-image{
+    padding-left: -8rem;
+}
+
+.footer_ul{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    padding-right: 10rem;
+    margin-top: -2.5rem;
+}
+.footer_li{
+    padding: 2rem;
+}
+ ul ,li ,p{
+  margin: 0;
+  padding: 0;
+} 
+.view_more_txt{
+    width: 10rem;
+    font-size: 18px;
+    background-color: rgb(18, 235, 18);
+    border: none;
+} 
+
+.footer_div{
+    padding:.5rem;
+    background-color: rgb(12, 11, 11);
+    color: #fff;
+    /* height: 80px; */
+}
+.fas{
+    display: inline;
+    padding: 9px;
+
+}
+.main_card{
+    position: relative;
+}
+.card_body{
+    position: absolute;
+    background-color:rgba(230, 236, 223, 0.3);
+    bottom: 0;
+    width: 100%;
+}
+
+textarea{
+    resize: none;
+    height: 200px !important;
+    width: 725px;
+}
+address{
+    display: inline;
+    
+    /* padding-left: 2rem; */
+}
+.div_address{
+    margin-top: -2.7rem;
+    margin-left: 4.5rem;
+    font-family: 'Baloo Thambi 2', cursive;
+    color: gray;
+}
+.email_phone{
+    margin-left: 3rem;
+    margin-bottom: -38rem;
+}
+.only_email,.only_phone{
+    margin-top: -2.4rem;
+    margin-left: 3.5rem; 
+    font-size: 18px;
+    font-family: 'Baloo Thambi 2', cursive;
+    color: gray;
+}
+.divs_aside{
+    height: 90px;
+    background-color: rgb(216, 210, 210);
+    padding-top: 1.3rem;
+    padding-left: 2.3rem;
+}
+.submit_form_button{
+    width: 10rem;
+    font-size: 21px;
+    background-color: rgb(18, 235, 18);
+    border: none;  
+    padding: .5rem;
+}
+
+/* media queries */
+@media only screen and (max-width: 768px){
+    .footer_ul{
+        margin-top: 0rem;
+        padding-right: 2rem;
+    }
+    
+}
