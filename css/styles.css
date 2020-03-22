@@ -37,7 +37,7 @@ h5{
 }
 .div_containing_name{
     padding-top: 5rem;
-    padding-left: 5rem;
+    padding-left: 1rem;
 }
 hr{
     width: 5rem;
@@ -99,7 +99,7 @@ ul li{
     list-style: none;
 }
 .my-name{
-    padding-left: 8rem  ;
+    padding-left: 2rem  ;
 }
 .nav-items-ul{
     display: flex;
